@@ -8,20 +8,26 @@
 
     <body>
         <!-- comment -->
-        <img src="eduardo-photo-2-circle.png" alt="eduardo profile photo" width="200" height="200"><!-- image tag <img>, his atributes are src, alt, width, height  -->
+        <table cellspacing = 20>
+            <tr>
+                <td><img src="eduardo-photo-2-circle.png" alt="eduardo profile photo" width="200" height="200"><!-- image tag <img>, his atributes are src, alt, width, height  --></td>
+                <td>
+                    <h1>Eduardo Jair Hernández Gómez &#129312;</h1><!-- heading level 1 -->
+                    <em> <!-- emphasis -->
+                        <dl><!-- description list -->
+                            <dt>Student at <strong>Tecnológico de Monterrey</strong></dt>
+                            <dt>Software Engineering</dt>
+                            <dt>Class 2024</dt>
+                            <dt>School of Engineering and Science</dt>
+                            <dt>Android and Web Developer</dt>
+                            <dt>Tampico, Tamaulipas, México</dt><!-- defines terms/names -->
+                            <!-- also have a <dd> tag for describe each term/name -->
+                            </dl>
+                    </em>
+                </td>         
+            </tr>
+        </table>
         <!-- If you want to use an italic letter use emphasis instead i, and when you want use a bold leter you use strong instead bold-->
-        <h1>Eduardo Jair Hernández Gómez &#129312;</h1><!-- heading level 1 -->
-        <em> <!-- emphasis -->
-            <dl><!-- description list -->
-                <dt>Student at <strong>Tecnológico de Monterrey</strong></dt>
-                <dt>Software Engineering</dt>
-                <dt>Class 2024</dt>
-                <dt>School of Engineering and Science</dt>
-                <dt>Android and Web Developer</dt>
-                <dt>Tampico, Tamaulipas, México</dt><!-- defines terms/names -->
-                <!-- also have a <dd> tag for describe each term/name -->
-            </dl>
-        </em>         
         
         <dl>
             <dt>LikedIn:
@@ -46,9 +52,11 @@
             <li>Rigel Kindergarten <strong>(2006-2008)</strong></li>
         </ul>
         
+        <hr>
+
         <h3>Techincal Projects</h3>
         <!-- Tables -->
-        <table><!-- <table> tag, we use table tag to creat a table structure, table is compose by tr(table row) that is inside table tag and inside tr is td(table data)  -->
+        <table cellspacing = 10><!-- <table> tag, we use table tag to creat a table structure, table is compose by tr(table row) that is inside table tag and inside tr is td(table data)  -->
             <thead> <!-- <thead> tag is for create a table head -->
                 <tr> 
                     <th>Date</th><!-- <th> tag puts inside thead and tr, for describe the name of the column-->
@@ -74,6 +82,36 @@
             </tfoot>
         </table>
 
+        <hr>
+
+        <h3>Skills</h3>
+        <table cellspacing = 10>
+            <tr>
+                <td>C++ ❤️</td>
+                <td>&#11088&#11088&#11088&#11088</td>
+            </tr>
+            <tr>
+                <td>Android Kotlin</td>
+                <td>&#11088&#11088&#11088</td>
+            </tr>
+            <tr>
+                <td>Android Java</td>
+                <td>&#11088&#11088&#11088</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>&#11088&#11088</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td>&#11088</td>
+            </tr>
+            <tr>
+                <td>Cooking</td>
+                <td>&#11088&#11088&#11088</td>
+            </tr>
+        </table>
+        
         <hr>
 
         <a href="hobbies.html">My Hobbies</a>
