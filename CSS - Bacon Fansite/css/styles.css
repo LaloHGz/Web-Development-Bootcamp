@@ -1,0 +1,42 @@
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: red;
+    font-size: 100px;
+    font-family: 'Helvetica';
+}
+
+p {
+    color: brown;
+    font-family: 'Helvetica';
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/********************CLASS SELECTORS*************************/
+/*class may has one or more of them*/
+/*selector may has more than one class*/
+
+.bacon {
+    background-color: red;
+}
+
+.broccoli {
+    background-color: green;
+}
+
+.circular {
+    border-radius: 100%;
+}
+ 
+/********************ID SELECTORS*************************/
+/*id only one of them*/
+/*selector only has one id*/
+
+#heading {
+    color:navy;
+}
